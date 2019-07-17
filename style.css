@@ -2,3 +2,13 @@
   display: flex;
   flex-direction: row;
 }
+
+/* about html */
+
+/* contact html */
+.getHelp, .learnMore, .donate{
+  display: flex;
+
+}
+
+/* post html */
