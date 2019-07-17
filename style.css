@@ -3,6 +3,7 @@
   flex-direction: row;
 }
 
+<<<<<<< HEAD
 /* about html */
 
 /* contact html */
@@ -12,3 +13,30 @@
 }
 
 /* post html */
+=======
+.tip1 {
+  padding: 10px;
+  background-color: blue;
+}
+
+button:hover .tip1{
+   display: none; }
+
+button:hover .hiddenTip1:before {
+   content:"EMMber: Ignite Change";
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 10px;
+   outline : none;
+   -moz-outline : none;
+  }
+
+body {
+  background-color: lightsalmon;
+}
+
+h1 {
+  color: blue;
+}
+>>>>>>> 5fddf651adabbab2095a6cf9c10331894052738e
