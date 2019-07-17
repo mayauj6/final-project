@@ -1,26 +1,11 @@
-.logo{
-  display: flex;
-  flex-direction: row;
-}
-
-<<<<<<< HEAD
-/* about html */
-
-/* contact html */
-.getHelp, .learnMore, .donate{
-  display: flex;
-
-}
-
-/* post html */
-=======
-.tip1 {
+.EMMber {
   padding: 10px;
   background-color: blue;
 }
 
 button:hover .tip1{
-   display: none; }
+   display: none;
+ }
 
 button:hover .hiddenTip1:before {
    content:"EMMber: Ignite Change";
@@ -38,4 +23,8 @@ body {
 
 h1 {
   color: blue;
+}
+
+img {
+  height: 100px;
 }
