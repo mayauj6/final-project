@@ -1,7 +1,9 @@
-.getHelp, .learnMore, .donate{
+
+.links{
   display: flex;
   flex-direction: row;
   font-family: 'Roboto Mono', monospace;
+  justify-content: space-around;
 
 }
 
