@@ -1,24 +1,28 @@
-.EMMber {
+button {
+  display: flex;
+  background-color: coral;
+  font-family: georgia;
   padding: 10px;
-  background-color: blue;
+  font-size: 75px;
+  margin: 25px;
 }
 
-button:hover .tip1{
+button:hover .logo{
    display: none;
  }
 
-button:hover .hiddenTip1:before {
+button:hover .logoHidden:before {
    content:"EMMber: Ignite Change";
    background-color: black;
    color: white;
    border: none;
-   padding: 10px;
+   padding: 20px;
    outline : none;
    -moz-outline : none;
   }
 
 body {
-  background-color: lightsalmon;
+  background-color: paleturquoise;
 }
 
 h1 {
@@ -27,4 +31,10 @@ h1 {
 
 img {
   height: 100px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
