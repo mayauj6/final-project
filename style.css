@@ -1,3 +1,17 @@
+
+/* the divs for centering the buttons  */
+.topFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.missionFlex {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* the header formatting for the hidden and shown button */
 .top {
   display: flex;
   background-color: coral;
@@ -21,6 +35,7 @@ button:hover .logoHidden:before {
    -moz-outline : none;
   }
 
+/* mission statement button formatting */
   .mission {
     display: flex;
     background-color: lightgreen;
@@ -50,7 +65,7 @@ button:hover .logoHidden:before {
 
 
 body {
-  background-color: paleturquoise;
+  background-color: lightcyan;
 }
 
 h1 {
@@ -58,11 +73,17 @@ h1 {
 }
 
 img {
-  height: 100px;
+  height: 200px;
+  margin: 10px;
 }
 
 .top {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.headPics {
+  display: flex;
+  justify-content: space-around;
 }
