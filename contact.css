@@ -4,7 +4,10 @@
   flex-direction: row;
   font-family: 'Roboto Mono', monospace;
   justify-content: space-around;
+}
 
+.title{
+  font-weight: bolder;
 }
 
 /* .logo{
