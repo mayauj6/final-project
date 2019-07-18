@@ -1,6 +1,10 @@
 body{
-  background-color:;
+  background-color:GAINSBORO;
 
+}
+
+.quote {
+  text-align: center;
 }
 
 a {
@@ -16,10 +20,7 @@ a {
   justify-content: center;
 }
 
-.right {
-  display: flex;
-  flex-direction: row;
-}
+
 
 #takeA {
  background-color: maroon;
@@ -84,6 +85,15 @@ p{
 
 .getHelp, .learnMore, .donate{
   max-width: 400px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
 
 }
 /* .logo{
