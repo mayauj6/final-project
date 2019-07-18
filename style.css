@@ -1,4 +1,4 @@
-button {
+.top {
   display: flex;
   background-color: coral;
   font-family: georgia;
@@ -20,6 +20,34 @@ button:hover .logoHidden:before {
    outline : none;
    -moz-outline : none;
   }
+
+  .mission {
+    display: flex;
+    background-color: lightgreen;
+    font-family: georgia;
+    padding: 10px;
+    font-size: 50px;
+    margin: 25px;
+
+  }
+
+  button:hover .mission1{
+     display: none;
+   }
+
+  button:hover .missionHidden:before {
+     content:"This is our mission statement";
+     background-color: black;
+     color: white;
+     border: none;
+     font-size: 20px;
+     padding: 20px;
+     outline : none;
+     -moz-outline : none;
+    }
+
+
+
 
 body {
   background-color: paleturquoise;
