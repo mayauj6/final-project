@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 img {
   height: 200px;
   width: 500px;
@@ -37,4 +38,8 @@ h1 {
   font-family: 'Karla', sans-serif;
   background-color: slategray;
   padding: 25px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d321bab7aa7abdfb0ab5752533d5f8a80cfaa042
 }
