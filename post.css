@@ -1,0 +1,32 @@
+h1, h3, h2, button, p{
+  text-align: center;
+  justify-content: center;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.b{
+  justify-content: center;
+}
+
+body{
+  background-color:GAINSBORO;
+
+}
+h1 {
+ background-color: maroon;
+ color: GAINSBORO;
+ /* box-shadow: 5px 5px 5px 5px maroon; */
+font-family: 'Allerta Stencil', sans-serif;
+text-align: center;
+padding: 10px;
+font-size: 50px;
+}
+p{
+    background-color:GAINSBORO;
+    color: maroon;
+    /* box-shadow: 5px 5px 5px 5px GAINSBORO; */
+    padding: 5px;
+    font-family: 'Karla', sans-serif;
+
+}

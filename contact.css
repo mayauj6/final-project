@@ -5,6 +5,11 @@ body{
 
 .quote {
   text-align: center;
+  background-color:GAINSBORO;
+  color: maroon;
+  /* box-shadow: 5px 5px 5px 5px GAINSBORO; */
+  font-size: 40px;
+  font-family: 'Karla', sans-serif;
 }
 
 a {
