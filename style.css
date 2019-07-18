@@ -5,17 +5,47 @@
   justify-content: center;
 }
 
-.missionFlex {
+.subHead {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.defineFlex {
   display: flex;
   justify-content: center;
 
 }
 
-/* the header formatting for the hidden and shown button */
+.famTips {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  background-color: lightsalmon;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* header button formatting */
 .top {
   display: flex;
-  background-color: coral;
-  font-family: georgia;
+  background-color: lightsalmon;
+  font-family: 'Kaushan Script', cursive;
   padding: 10px;
   font-size: 75px;
   margin: 25px;
@@ -36,30 +66,136 @@ button:hover .logoHidden:before {
   }
 
 /* mission statement button formatting */
-  .mission {
-    display: flex;
-    background-color: lightgreen;
-    font-family: georgia;
-    padding: 10px;
-    font-size: 50px;
-    margin: 25px;
+.mission {
+  display: flex;
+  background-color: #bbff99;
+  font-family: georgia;
+  padding: 10px;
+  font-size: 30px;
+  margin: 25px;
 
+}
+
+button:hover .mission1{
+   display: none;
+ }
+
+button:hover .missionHidden:before {
+   content:"This is our mission statement";
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   padding: 20px;
+   outline : none;
+   -moz-outline : none;
   }
 
-  button:hover .mission1{
-     display: none;
-   }
+.define {
+  display: flex;
+  background-color: #bbff99;
+  font-family: georgia;
+  padding: 10px;
+  font-size: 30px;
+  margin: 25px;
+}
 
-  button:hover .missionHidden:before {
-     content:"This is our mission statement";
-     background-color: black;
-     color: white;
-     border: none;
-     font-size: 20px;
-     padding: 20px;
-     outline : none;
-     -moz-outline : none;
-    }
+button:hover .define1{
+   display: none;
+ }
+
+button:hover .defineHidden:before {
+   content:"What is Domestic Violence? Something you should not ignore";
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   padding: 20px;
+   outline : none;
+   -moz-outline : none;
+  }
+
+.tip1 {
+  display: flex;
+  background-color: #bbff99;
+  font-family: georgia;
+  padding: 10px;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+  margin_right: 100px;
+}
+
+button:hover .famTip1 {
+  display: none;
+}
+
+button:hover .tip1Hidden:before {
+   content:"What is Domestic Violence? Something you should not ignore";
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   padding: 20px;
+   outline : none;
+   -moz-outline : none;
+   text-align: center;
+  }
+
+.tip2 {
+  display: flex;
+  background-color: #bbff99;
+  font-family: georgia;
+  padding: 10px;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+button:hover .famTip2 {
+  display: none;
+}
+
+button:hover .tip2Hidden:before {
+   content:"What is Domestic Violence? Something you should not ignore";
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   padding: 20px;
+   outline : none;
+   -moz-outline : none;
+   text-align: center;
+  }
+
+.tip3 {
+  display: flex;
+  background-color: #bbff99;
+  font-family: georgia;
+  padding: 10px;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+button:hover .famTip3 {
+  display: none;
+}
+
+button:hover .tip3Hidden:before {
+   content:"What is Domestic Violence? Something you should not ignore";
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   padding: 20px;
+   outline : none;
+   -moz-outline : none;
+   text-align: center;
+  }
+
+
+
 
 
 
@@ -68,8 +204,9 @@ body {
   background-color: lightcyan;
 }
 
-h1 {
+h2 {
   color: blue;
+  text-align: center;
 }
 
 img {
@@ -77,11 +214,6 @@ img {
   margin: 10px;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .headPics {
   display: flex;
