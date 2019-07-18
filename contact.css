@@ -25,6 +25,15 @@ a {
   justify-content: center;
 }
 
+a:hover {
+  background-color: slategray;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 #takeA {
