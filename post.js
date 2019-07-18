@@ -1,6 +1,6 @@
 var button = $('button');
 var container = $('.container')
-var arr = [];
+var arr = [4];
 
 button.on("click", post);
 
@@ -11,12 +11,13 @@ function post(){
   var x = document.getElementById("myText").value;
   console.log(x);
 
+  arr.pop();
   arr.push(x);
-  arr.pop;
   console.log(arr);
 
   container.append(`
     <p>I am ${x}</p>
+    <p>$</p>
   `)
 
   count++;
