@@ -1,8 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+#one {
+    height: 400px;
+    margin: 0px;
+    padding: 0px
+    margin-bottom: 0px;
+    position: relative;
+    background-color: color;
+    padding: 10px;
+    display: inline-block;
+    /* margin: 0px; */
+}
+
+
+#one .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#one:hover .img-top {
+    display: inline;
+
+}
+
+
+
+
+
 
 /* the divs for centering the buttons  */
 .topFlex {
   display: flex;
   justify-content: center;
+  padding: 0px;
 }
 
 .subHead {
@@ -28,7 +65,7 @@
 
 .links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 a {
@@ -36,9 +73,17 @@ a {
   box-shadow: 0 5px 0 darkred;
   color: white;
   padding: 1em 1.5em;
+  font-size: 25px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+
+}
+
+a:hover {
+  background-color: #bbff99;
+  color: black;
 }
 
 /* header button formatting */
@@ -53,12 +98,16 @@ a {
 
 button:hover .logo{
    display: none;
+   content: none;
  }
 
 button:hover .logoHidden:before {
-   content:"EMMber: Ignite Change";
-   background-color: black;
-   color: white;
+   content: "____________";
+   background-image: url("./images/logo2.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding: 100px;
+   color: none;
    border: none;
    padding: 20px;
    outline : none;
@@ -69,10 +118,12 @@ button:hover .logoHidden:before {
 .mission {
   display: flex;
   background-color: #bbff99;
-  font-family: georgia;
   padding: 10px;
   font-size: 30px;
   margin: 25px;
+  font-family: 'Karla', sans-serif;
+  border: 5px solid;
+  border-color: lightsalmon;
 
 }
 
@@ -81,12 +132,15 @@ button:hover .mission1{
  }
 
 button:hover .missionHidden:before {
-   content:"This is our mission statement";
+   content:"EMMber is an educational platform created to inform and inspire those who    may not be aware of the gravity and prevalence of domestic violence.";
    background-color: black;
    color: white;
    border: none;
    font-size: 20px;
-   padding: 20px;
+   padding: 10px;
+   margin: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
    outline : none;
    -moz-outline : none;
   }
@@ -98,6 +152,9 @@ button:hover .missionHidden:before {
   padding: 10px;
   font-size: 30px;
   margin: 25px;
+  font-family: 'Karla', sans-serif;
+  border: 5px solid;
+  border-color: lightsalmon;
 }
 
 button:hover .define1{
@@ -132,14 +189,22 @@ button:hover .famTip1 {
 
 button:hover .tip1Hidden:before {
    content:"What is Domestic Violence? Something you should not ignore";
-   background-color: black;
+   /* background-color: black;
    color: white;
    border: none;
    font-size: 20px;
    padding: 20px;
    outline : none;
    -moz-outline : none;
+   text-align: center; */
+   display: flex;
+   background-color: #bbff99;
+   font-family: georgia;
+   padding: 10px;
+   font-size: 25px;
+   margin: 25px;
    text-align: center;
+   margin_right: 100px;
   }
 
 .tip2 {
@@ -157,7 +222,7 @@ button:hover .famTip2 {
 }
 
 button:hover .tip2Hidden:before {
-   content:"What is Domestic Violence? Something you should not ignore";
+   content:"1 in 5 people blah blah";
    background-color: black;
    color: white;
    border: none;
@@ -205,8 +270,13 @@ body {
 }
 
 h2 {
-  color: blue;
+  color: black;
   text-align: center;
+  font-family: 'Karla', sans-serif;
+  background-color: #bbff99;
+  padding: 20px;
+  font-size: 40px;
+  margin-top: 30px;
 }
 
 img {
@@ -218,4 +288,13 @@ img {
 .headPics {
   display: flex;
   justify-content: space-around;
+  margin-top: 0px;
+}
+
+.one {
+  font-size: 100px;
+}
+.one:hover {
+  color: blue;
+  content: "hi";
 }
