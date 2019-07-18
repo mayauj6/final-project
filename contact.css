@@ -5,7 +5,7 @@ body{
 
 a {
   background-color: maroon;
-  box-shadow: 0 5px 0 darkred;
+  box-shadow: 0 5px 0 red;
   color: white;
   padding: 1em 1.5em;
   position: relative;
