@@ -179,9 +179,13 @@ p{
     max-width: 75%;
   }
   .sections{
-    /* display: flex;
-    flex-wrap: column;
-    justify-content: center; */
+    margin: 48.8px;
+  }
+  .quote, .header{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 15px;
   }
 }
 
