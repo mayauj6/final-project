@@ -90,3 +90,30 @@ body {
   padding: 10px;
   font-style: oblique;
 }
+
+@media screen and (max-width: 1000px){
+  .blurb{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  img{
+    max-width: 75%;
+  }
+  .appearances{
+    padding: 0px;
+    font-size: 60px;
+  }
+  #head{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .links{
+    padding: 0px;
+  }
+  .why{
+    font-size: 35px;
+  }
+  .blurb{
+    font-size: 20px;
+  }
+}
