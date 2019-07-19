@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 
-
+.pics {
+  display: flex;
+  justify-content: space-around;
+  height: 225px;
+}
 #one {
-    height: 270px;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 0px;
+    height: 225px;
     position: relative;
     background-color: color;
-    padding: 10px;
     display: inline-block;
     /* margin: 0px; */
 }
@@ -31,15 +31,21 @@
 }
 
 
-
+#back:hover .img-top {
+  content: "What";
+  background-color: maroon;
+  padding: 10px;
+  font-size: 50px;
+}
 
 
 
 /* the divs for centering the buttons  */
 .topFlex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0px;
+  margin-bottom: 100px;
 }
 
 .subHead {
@@ -86,34 +92,6 @@ a:hover {
   color: black;
 }
 
-/* header button formatting */
-.top {
-  display: flex;
-  background-color: lightsalmon;
-  font-family: 'Kaushan Script', cursive;
-  padding: 10px;
-  font-size: 75px;
-  margin: 25px;
-}
-
-button:hover .logo{
-   display: none;
-   content: none;
- }
-
-button:hover .logoHidden:before {
-   content: "____________";
-   background-image: url("./images/logo2.png");
-   background-size: contain;
-   background-repeat: no-repeat;
-   padding: 100px;
-   color: none;
-   border: none;
-   padding: 20px;
-   outline : none;
-   -moz-outline : none;
-  }
-
 /* mission statement button formatting */
 .mission {
   display: flex;
@@ -132,17 +110,14 @@ button:hover .mission1{
  }
 
 button:hover .missionHidden:before {
-   content:"EMMber is an educational platform created to inform and inspire those who    may not be aware of the gravity and prevalence of domestic violence.";
+   content:"EMMber is an educational platform created to inform and inspire those who may not be aware of the gravity and prevalence of domestic violence.";
    background-color: black;
    color: white;
    border: none;
    font-size: 20px;
-   padding: 10px;
-   margin: 10px;
-   margin-right: 10px;
-   margin-left: 10px;
+   padding: 15px;
    outline : none;
-   -moz-outline : none;
+   -moz-outline : none; */
   }
 
 .define {
@@ -162,12 +137,12 @@ button:hover .define1{
  }
 
 button:hover .defineHidden:before {
-   content:"What is Domestic Violence? Something you should not ignore";
+   content:"Domestic Abuse can be mental or physical, and experienced regardless of gender, age, economic status, race, or more.";
    background-color: black;
    color: white;
    border: none;
    font-size: 20px;
-   padding: 20px;
+   padding: 15px;
    outline : none;
    -moz-outline : none;
   }
@@ -177,10 +152,12 @@ button:hover .defineHidden:before {
   background-color: #bbff99;
   font-family: georgia;
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
   margin: 25px;
   text-align: center;
-  margin_right: 100px;
+  margin_right: 200px;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
 }
 
 button:hover .famTip1 {
@@ -270,7 +247,7 @@ body {
 }
 
 h2 {
-  color: black;
+  color: slategray;
   text-align: center;
   font-family: 'Karla', sans-serif;
   background-color: #bbff99;
@@ -297,4 +274,17 @@ img {
 .one:hover {
   color: blue;
   content: "hi";
+}
+
+#logoSize {
+  height: 300px;
+}
+
+.headPics {
+  height: 200px;
+}
+
+#jump {
+  height: 200px;
+  display: flex;
 }

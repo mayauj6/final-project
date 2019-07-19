@@ -1,12 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h3 {
+  padding: 25px;
+  font-size: 25px;
+}
+
 h1, h3, h2, button, p{
   text-align: center;
   justify-content: center;
-    font-family: 'Karla', sans-serif;
+  font-family: 'Karla', sans-serif;
 
 }
 
 .b{
+  display: flex;
   justify-content: center;
+}
+
+button {
+  background-color: maroon;
+  font-size: 20px;
+  padding: 15px;
+  border: 3px solid;
+  border-color: slategray;
+  color: white;
 }
 
 body{
@@ -16,17 +37,42 @@ body{
 h1 {
  background-color: maroon;
  color: GAINSBORO;
- /* box-shadow: 5px 5px 5px 5px maroon; */
-font-family: 'Allerta Stencil', sans-serif;
-text-align: center;
-padding: 10px;
-font-size: 50px;
+   /* box-shadow: 5px 5px 5px 5px maroon; */
+  font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
 }
-p{
-    background-color:GAINSBORO;
-    color: maroon;
-    /* box-shadow: 5px 5px 5px 5px GAINSBORO; */
-    padding: 5px;
-    font-family: 'Karla', sans-serif;
 
+p {
+  background-color:GAINSBORO;
+  color: maroon;
+  /* box-shadow: 5px 5px 5px 5px GAINSBORO; */
+  padding-top: 50px;
+  padding-bottom: 150px;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  background-color: maroon;
+  box-shadow: 0 5px 0 red;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  background-color: slategray;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
 }
