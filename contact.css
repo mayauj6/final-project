@@ -10,12 +10,14 @@ body {
 }
 
 .quote {
+  padding: 25px;
   text-align: center;
   background-color:GAINSBORO;
   color: maroon;
   /* box-shadow: 5px 5px 5px 5px GAINSBORO; */
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Karla', sans-serif;
+  font-style: italic;
 }
 
 a {
@@ -29,17 +31,36 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
+  margin: 10px;
+}
+
+#logo {
+  background-color: maroon;
+  color: GAINSBORO;
+  /* box-shadow: 5px 5px 5px 5px maroon; */
+ font-family: 'Allerta Stencil', sans-serif;
+ text-align: center;
+ padding: 10px;
+ font-size: 20px;
+ margin: 0px;
+ padding: 30px;
+}
+
+img {
+  height: 200px;
+  width: 500px;
 }
 
 a:hover {
   background-color: slategray;
+  color: maroon;
+  font-style: oblique;
 }
 
 .links {
   display: flex;
   justify-content: center;
 }
-
 
 
 #takeA {
@@ -70,22 +91,16 @@ font-size: 50px;
 
 
 }
+
 .links{
   font-family: 'Karla', sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   padding: 5px
 
 }
 
-#home {
-  font-family: 'Karla', sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 5px;
-}
 
 
 p{
@@ -114,6 +129,7 @@ p{
 }
 
 .getHelp, .learnMore, .donate{
+  padding: 20px;
   max-width: 400px;
   /* display: flex; */
   /* flex-direction: row; */
@@ -123,9 +139,34 @@ p{
   display: flex;
   flex-direction: row;
   /* justify-content: flex-end; */
-  justify-content: space-between;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
 
 }
+
+#home {
+  margin: 0px;
+  padding: 0px;
+  background-color: maroon;
+  box-shadow: 0 5px 0 red;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#home:hover {
+  background-color: gainsboro;
+  color: maroon;
+}
+
+
 /* .logo{
   display: flex;
   flex-direction: row;

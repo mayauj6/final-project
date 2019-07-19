@@ -65,6 +65,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: 25px;
+  color: black;
 
 }
 
@@ -149,10 +151,11 @@ button:hover .defineHidden:before {
 
 .tip1 {
   display: flex;
-  background-color: #bbff99;
+  background-color: lightsalmon;
   font-family: georgia;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  color: black;
   margin: 25px;
   text-align: center;
   margin_right: 200px;
@@ -165,7 +168,7 @@ button:hover .famTip1 {
 }
 
 button:hover .tip1Hidden:before {
-   content:"What is Domestic Violence? Something you should not ignore";
+   content:"Did you know that over ___ people are hospitalized due to domestic violence disputes each year?";
    background-color: black;
    color: white;
    border: none;
@@ -186,8 +189,8 @@ button:hover .tip1Hidden:before {
 
 .tip2 {
   display: flex;
-  background-color: #bbff99;
-  font-family: georgia;
+  background-color: powderblue;
+  font-family: 'Karla', sans-serif;
   padding: 10px;
   font-size: 25px;
   margin: 25px;
@@ -199,7 +202,7 @@ button:hover .famTip2 {
 }
 
 button:hover .tip2Hidden:before {
-   content:"1 in 5 people blah blah";
+   content:"Did you know that every 1 in 5 women will be sexually assaulted in their lifetime? That's 20%!";
    background-color: black;
    color: white;
    border: none;
@@ -212,8 +215,8 @@ button:hover .tip2Hidden:before {
 
 .tip3 {
   display: flex;
-  background-color: #bbff99;
-  font-family: georgia;
+  background-color: lightpink;
+  font-family: 'Karla', sans-serif;
   padding: 10px;
   font-size: 25px;
   margin: 25px;

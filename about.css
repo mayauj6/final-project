@@ -6,6 +6,7 @@
 img {
   height: 200px;
   width: 500px;
+  padding: 20px;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
   background-color: slategray;
   margin-left: 300px;
   margin-right: 300px;
-  padding: 20px;
+  padding: 30px;
 
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 #head {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: maroon;
   font-family: 'Karla', sans-serif;
@@ -87,4 +88,5 @@ body {
   margin-left: 300px;
   margin-right: 300px;
   padding: 10px;
+  font-style: oblique;
 }
