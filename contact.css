@@ -101,6 +101,14 @@ font-size: 50px;
 
 }
 
+.sections{
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
 
 
 p{
@@ -164,6 +172,17 @@ p{
 #home:hover {
   background-color: gainsboro;
   color: maroon;
+}
+
+@media screen and (max-width: 1000px){
+  img{
+    max-width: 75%;
+  }
+  .sections{
+    /* display: flex;
+    flex-wrap: column;
+    justify-content: center; */
+  }
 }
 
 
