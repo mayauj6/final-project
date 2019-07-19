@@ -184,11 +184,12 @@ button:hover .famTip1 {
 }
 
 button:hover .tip1Hidden:before {
-   content:"Did you know that over ___ people are hospitalized due to domestic violence disputes each year?";
+   content:"11.7% of women visiting a variety of American emergency departments were there because of acute injury or stress related to domestic violence.";
    background-color: black;
    color: white;
    border: none;
    font-size: 20px;
+   padding: 10px;
    /* padding: 20px; */
    outline : none;
    -moz-outline : none;
@@ -218,7 +219,7 @@ button:hover .famTip2 {
 }
 
 button:hover .tip2Hidden:before {
-   content:"Did you know that every 1 in 5 women will be sexually assaulted in their lifetime? That's 20%!";
+   content:"Did you know that every 1 in 5 women will be sexually assaulted in their lifetime? That's 20% of the entire female population.";
    background-color: black;
    color: white;
    border: none;
@@ -244,17 +245,68 @@ button:hover .famTip3 {
 }
 
 button:hover .tip3Hidden:before {
-   content:"What is Domestic Violence? Something you should not ignore";
+   content:"The National Domestic Violence Hotline (and loveisrespect, its project for teens and young adults) answered 323,356 calls, chats and texts in 2017.";
    background-color: black;
    color: white;
    border: none;
    font-size: 20px;
-   padding: 20px;
+   padding: 10px;
    outline : none;
    -moz-outline : none;
    text-align: center;
   }
 
+  .tip4 {
+    display: flex;
+    background-color: lightsalmon;
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+  }
+
+  button:hover .famTip4 {
+    display: none;
+  }
+
+  button:hover .tip4Hidden:before {
+     content:"Domestic violence is the leading cause of injury to women: more than car accidents, mugging, and rapes combined.";
+     background-color: black;
+     color: white;
+     border: none;
+     font-size: 20px;
+     padding: 10px;
+     outline : none;
+     -moz-outline : none;
+     text-align: center;
+    }
+
+    .tip5 {
+      display: flex;
+      background-color: powderblue;
+      font-family: 'Karla', sans-serif;
+      padding: 10px;
+      font-size: 25px;
+      margin: 25px;
+      text-align: center;
+    }
+
+    button:hover .famTip5 {
+      display: none;
+    }
+
+    button:hover .tip5Hidden:before {
+       content:"Domestic violence costs more than $37 billion a year in law enforcement involvement, legal work, medical and mental health treatment, and lost productivity at companies.";
+       background-color: black;
+       color: white;
+       border: none;
+       font-size: 20px;
+       padding: 10px;
+       outline : none;
+       -moz-outline : none;
+       text-align: center;
+      }
 
 
 
