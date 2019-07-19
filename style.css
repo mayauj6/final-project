@@ -17,6 +17,15 @@
     /* margin: 0px; */
 }
 
+#left {
+  height: 300px;
+  padding: 0px;
+}
+
+#right {
+  height: 300px;
+  padding: 0px;
+}
 
 #one .img-top {
     display: none;
@@ -43,9 +52,10 @@
 /* the divs for centering the buttons  */
 .topFlex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 10px;
   padding: 0px;
-  margin-bottom: 100px;
+  margin-left: 20px;
 }
 
 .subHead {
@@ -281,6 +291,8 @@ img {
 
 #logoSize {
   height: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .headPics {
