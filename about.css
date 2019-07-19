@@ -90,3 +90,10 @@ body {
   padding: 10px;
   font-style: oblique;
 }
+
+@media screen and (max-width: 1000px){
+  .blurb{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
